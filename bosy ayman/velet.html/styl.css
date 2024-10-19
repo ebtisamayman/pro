@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+.carousel {
+    width: 100%;
+}  
+
+.carousel 
+{width: 500px;
+position: relative;
+left: 400px;
+    padding: 19px;
+}
+section{
+    width: 100%;
+    position: relative;
+}
+
+.card{
+   
+     width: 290px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.card1{
+    width: 290px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 330px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid rgb(249, 238, 238);
+    border-radius: 2px;
+}
+
+.card2{
+    width: 290px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 630px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid rgb(249, 238, 238);
+    border-radius: 2px;
+}.card3{
+    width: 290px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 930px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid rgb(249, 238, 238);
+    border-radius: 2px;
+}.card4{
+    width: 290px;
+    height: 500px;
+    position: absolute;
+    top: 550px;
+    bottom: 1px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid rgb(249, 238, 238);
+    border-radius: 2px;
+}
+
+.card5{
+    width: 290px;
+    height: 500px;
+    position: absolute;
+    
+    top: 550px;
+    left: 330px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid rgb(249, 238, 238);
+    border-radius: 2px;
+}
+.card-group img{
+    width: 100%;
+}
+.card-group img{
+    width: 400px;
+    height: 250px;
+}
+.card-text button{
+    color: aliceblue;
+}

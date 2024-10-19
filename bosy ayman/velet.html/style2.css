@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+.carousel-inner{
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 400px;
+
+}
+.carousel-inner{
+    display: flex;
+   
+    width: 400px;
+}
+
+

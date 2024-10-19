@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> 
+  <link rel="stylesheet" href="stylb.css">
+    <title>Document</title>
+</head>
+<body>
+       <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        data-mdb-collapse-init
+        class="navbar-toggler"
+        type="button"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <img
+              src="img/photo/WhatsApp Image 2024-10-11 at 6.47.55 PM (1).jpeg"
+              class="rounded-circle"
+              height="25"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+           <h2 style="color: gray;">vel-vet</h2>
+          </li>
+          
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+  
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+        <!-- Icon -->
+        <a class="text-reset me-3" href="#">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+  
+        <!-- Notifications -->
+        <div class="dropdown">
+          <a
+            data-mdb-dropdown-init
+            class="text-reset me-3 dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bell"></i>
+            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          </a>
+         
+        </div>
+        <!-- Avatar -->
+        <div class="dropdown">
+          <a
+            data-mdb-dropdown-init
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            aria-expanded="false"
+          >
+            <img
+              src="img/photo/WhatsApp Image 2024-10-11 at 6.47.55 PM.jpeg"
+              class="rounded-circle"
+              height="25"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  <div id="carouselExampleInterval" class="carousel slide" data-mdb-ride="carousel" data-mdb-carousel-init >
+    <div class="carousel-inner animate__animated animate__tada">
+      <div class="carousel-item active" data-mdb-interval="10000">
+        <img src="photo/beesline2/beesline 4in1 whitening  cleanser2.jpg" class="d-block w-100" alt="Wild Landscape"/>
+      </div>
+      <div class="carousel-item" data-mdb-interval="2000">
+        <img src="photo/beesline2/beesline whitening toner2.jpg" class="d-block w-100" alt="Camera"/>
+      </div>
+      <div class="carousel-item">
+        <img src="photo/beesline2/beesline-whitening-eye-contour-cream.jpg" class="d-block w-100" alt="Exotic Fruits"/>
+      </div>
+    </div>
+    <button class="carousel-control-prev" data-mdb-target="#carouselExampleInterval" type="button" data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" data-mdb-target="#carouselExampleInterval" type="button" data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="photo/beesline2/beeline facial toner2.webp" class="card-img-top" alt="Skyscrapers"/>
+        <div class="card-body">
+          <h5 class="card-title">Beesline Instant Bright Micellar Water</h5>
+          <p class="card-text">
+            A brightening micellar water for a more even-looking skin tone. This gentle yet effective formula deeply cleanses your skin, removes makeup, and prevents buildup in pores. 
+            With its soothing properties, it leaves your skin feeling refreshed and revitalized
+          </p>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-mdb-ripple-init><a href="buy.html">LBP 794,760</a>
+                LBP 794,760</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="photo/beesline2/beesline 4in1 whitening  cleanser2.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+        <div class="card-body">
+          <h5 class="card-title">Beesline 4in1 Whitening Cleanser</h5>
+          <p class="card-text">Experience the power of our advanced formula that delivers 4 actions in 1 product. This multitasking cleanser is designed to brighten, cleanse, and exfoliate the skin daily, while also acting as a weekly
+             facial mud mask. The result is smooth, fresh, purified, and radiant skin.</p>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-mdb-ripple-init><a href="buy.html">LBP 894,105</a>
+                LBP 894,105</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="photo/beesline2/beesline day cream2.webp" class="card-img-top" alt="Palm Springs Road"/>
+        <div class="card-body">
+          <h5 class="card-title">Beesline Instant Bright Day Cream</h5>
+          <p class="card-text">
+            For ultimate hydration and radiance. Targets dullness instantly by brightening the skin from first use. Unifies skin tone and fades the appearance of dark spots, with proven results within 4 weeks.
+          </p>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-mdb-ripple-init><a href="buy.html">LBP 1,291,485</a>
+                LBP 1,291,485</button>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="photo/beesline2/beesline eye cream2.jpg" class="card-img-top" alt="Skyscrapers"/>
+        <div class="card-body">
+          <h5 class="card-title">Beesline Instant Bright Eye Cream</h5>
+          <p class="card-text">
+            This fast-absorbing and lightweight eye cream targets puffiness, fine lines, wrinkles, and dark circles. Rich in potent active ingredients, it works to smooth and brighten the delicate 
+            skin around the eyes, leaving you with a refreshed and illuminated look.
+          </p>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-mdb-ripple-init><a href="buy.html">LBP 1,291,48</a>
+                LBP 1,291,485</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="photo/beesline2/beesline lip care.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+        <div class="card-body">
+          <h5 class="card-title">Beesline Lip Care Shea Butter & Avocado Oil</h5>
+          <p class="card-text">The ultimate relief for dry, chapped lips with added nourishment! Soothes, moisturizes, and regenerates the lips' sensitive skin through nature’s healing beeswax, precious oils, shea butter, and avocado oil, while protecting them from external irritants.</p>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-mdb-ripple-init><a href="buy.html">LBP 259,550</a>
+                LBP 259,550</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="photo/beesline2/beesline moisture mask2.jpg" class="card-img-top" alt="Palm Springs Road"/>
+        <div class="card-body">
+          <h5 class="card-title">Beesline Super Moistur Mask</h5>
+          <p class="card-text">
+            This rejuvenating mask instantly boosts moisture levels, providing deep hydration while soothing and nourishing your skin. It leaves your complexion plump, healthy, 
+            and revitalized, revealing a radiant glow. Each packet contains enough for 3 applications.
+          </p>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary" data-mdb-ripple-init><a href="buy.html">LBP 133,355</a>
+                LBP 133,355</button>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+  
+  <div class="card-group">
+    <div class="card">
+      <img src="photo/beesline2/beesline-whitening-eye-contour-cream.jpg" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+      <div class="card-body">
+        <h5 class="card-title">Beesline Whitening Eye Contour Cream SPF 30</h5>
+        <p class="card-text">
+            Achieve a bright, smooth, and refreshed eye contour. Formulated to reduce the appearance of age spots, fine lines, and signs of fatigue, this cream is enriched with powerful active ingredients to deliver visible results. With SPF 30, it also provides essential protection against harmful UV rays,
+            safeguarding the delicate skin around the eyes. Suitable for all skin types
+        </p>
+      </div>
+      <div class="card-footer">
+        <button type="button" class="btn btn-primary" data-mdb-ripple-init><a href="buy.html">   LBP 646,190</a>
+            LBP 646,190</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="photo/beesline2/Beesline-Honey-Moisturizing-Soap.webp" class="card-img-top" alt="Palm Springs Road"/>
+      <div class="card-body">
+        <h5 class="card-title">Beesline Honey Moisturizing Soap</h5>
+        <p class="card-text">This universal fragrance-free honey bar gently cleanses, purifies, and moisturizes the skin for a refreshed and rejuvenated feel. Effectively eliminates bacteria and 
+            dirt without stripping the skin's natural oils. Suitable for sensitive skin.</p>
+      </div>
+      <div class="card-footer">
+        <button type="button" class="btn btn-primary" data-mdb-ripple-init><a href="buy.html">LBP 248,810</a>
+            LBP 248,810</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="photo/beesline2/beesline whitening toner2.jpg" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Beesline Whitening Facial Toner</h5>
+        <p class="card-text">
+            This brightening toner is specially formulated to even out skin tone and promote a radiant appearance. It effectively fades dark spots, energizes the skin, and preserves its moisture for up to 24 hours.
+        </p>
+      </div>
+      <div class="card-footer">
+        <button type="button" class="btn btn-primary" data-mdb-ripple-init><a href="buy.html">LBP 133,355</a>
+            LBP 133,355</button>
+      </div>
+    </div>
+  </div><br><br>
+
+  <button type="button" class="btn btn-primary" data-mdb-ripple-init> <a href="bio.html">back</a>back</button>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
